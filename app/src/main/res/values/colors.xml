@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#cc0000</color>
+    <color name="colorPrimaryDark">#ff3333</color>
+    <color name="colorAccent">#0000cc</color>
+
+    <color name="lvDividerColor">#E0E0E0</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="nliveo_white">#FFFFFF</color>
+</resources>

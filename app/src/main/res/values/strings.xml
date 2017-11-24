@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">StudentManagement</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_add_student">AddStudentActivity</string>
+    <string name="title_activity_edit_student">EditStudentActivity</string>
+
+    <!--login-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Sign in</string>
+    <string name="create_account">I don\'t have an account</string>
+    <string name="login_fail">Login fail</string>
+    <string name="save">Save</string>
+    <!---->
+
+    <!--create accoutn-->
+    <string name="full_name">Full name</string>
+    <string name="re_password">Re-Password</string>
+    <string name="create">Create</string>
+    <string name="create_account_title">Create account</string>
+    <!---->
+
+    <!--home-->
+    <string name="logout">Sign out</string>
+    <string name="device">Device</string>
+    <string name="map">Map</string>
+    <string name="type_device">Type</string>
+    <string name="setting">Setting</string>
+    <string name="home">Home</string>
+    <string name="view_data">View data</string>
+
+    <string name="delete">Delete</string>
+    <string name="log_delete">Are you sure?</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <!---->
+
+    <!--humidity-->
+    <string name="temperature">Temperature</string>
+    <string name="humidity">Humidity</string>
+    <string name="pressure">Pressure</string>
+    <string name="light_intensity">Light intensity</string>
+    <string name="heat_index">Heat index</string>
+    <string name="dew_point">Dew point</string>
+    <!---->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_maps">Map</string>
+    <!---->
+
+    <string name="Thingspeak">Thingspeak</string>
+    <string name="turnon">On</string>
+    <string name="turnoff">Off</string>
+
+    <string name="default_text_view">----</string>
+    <string name="more"><a href="#">More</a></string>
+    <string name="title_progress">Progress</string>
+    <string name="progress_waiting">Please wait...</string>
+    <string name="no_location">no location</string>
+    <string name="location">Location</string>
+    <string name="search">Search...</string>
+
+    <!--Control device-->
+    <string name="control_led">Led</string>
+    <string name="time_delay">Time deplay</string>
+    <string name="low_temp">Low temperature</string>
+    <string name="height_temp">Height temperature</string>
+
+    <!---->
+    <string name="tempc">\u2103</string>
+    <string name="tempf">\u2109</string>
+
+    <!--Export excel-->
+    <string name="export_excel">Export Excel</string>
+    <string name="info_export_excel">Export Excel</string>
+    <string name="info_export_excel_success">Success file Excel! Would you like to open excel file </string>
+    <string name="info_export_excel_fail">Error</string>
+</resources>

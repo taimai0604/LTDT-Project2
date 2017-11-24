@@ -1,0 +1,74 @@
+<!--<?xml version="1.0" encoding="utf-8"?>--><!--<android.support.constraint.ConstraintLayout--><!--xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!--<TextView--><!--android:id="@+id/tvName"--><!--android:layout_width="150dp"--><!--android:layout_height="wrap_content"--><!--android:layout_marginBottom="8dp"--><!--android:layout_marginStart="16dp"--><!--android:layout_marginTop="8dp"--><!--android:text="name-studentt"--><!--android:textSize="16dp"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintStart_toStartOf="parent"--><!--app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--<Button--><!--android:id="@+id/btnEdit"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginBottom="8dp"--><!--android:layout_marginStart="8dp"--><!--android:layout_marginTop="8dp"--><!--android:background="@android:color/holo_blue_light"--><!--android:text="Edit"--><!--android:textColor="@android:color/white"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintStart_toEndOf="@+id/tvName"--><!--app:layout_constraintTop_toTopOf="parent"--><!--app:layout_constraintVertical_bias="0.498"--><!--tools:ignore="MissingConstraints" />-->
+
+<!--<Button--><!--android:id="@+id/btnDelete"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginBottom="8dp"--><!--android:layout_marginStart="8dp"--><!--android:layout_marginTop="8dp"--><!--android:background="@android:color/holo_red_light"--><!--android:text="Delete"--><!--android:textColor="@android:color/white"--><!--app:layout_constraintBottom_toBottomOf="parent"--><!--app:layout_constraintEnd_toEndOf="parent"--><!--app:layout_constraintStart_toEndOf="@+id/btnEdit"--><!--app:layout_constraintTop_toTopOf="parent" />--><!--</android.support.constraint.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/listViewItem"
+    android:layout_width="match_parent"
+    android:background="@android:drawable/list_selector_background">
+
+    <View
+        android:id="@+id/ngangitem_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lvDividerHeight"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lvDividerColor" />
+
+    <ImageView
+        android:id="@+id/imgDeleteDevice"
+        style="@style/listViewItemButtonStyle"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:background="@android:drawable/list_selector_background"
+        android:clickable="true"
+        android:padding="15dp"
+        android:src="@mipmap/ic_delete" />
+
+    <View
+        android:id="@+id/ngangitem_separator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lvDividerHeight"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lvDividerColor" />
+
+    <ImageView
+
+        android:id="@+id/imgEditDevice"
+        style="@style/listViewItemButtonStyle"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:layout_toStartOf="@+id/imgDeleteDevice"
+        android:background="@android:drawable/list_selector_background"
+        android:clickable="true"
+        android:padding="15dp"
+        android:src="@mipmap/ic_edit" />
+
+    <View
+        android:id="@+id/duongdocvertical_divider"
+        style="@style/listViewVerticalDivider"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/imgDeleteDevice" />
+
+    <TextView
+        android:id="@+id/tvName"
+        style="@style/listViewPrimaryDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/imgDeleteDevice"
+        android:ellipsize="marquee"
+        android:text="Name Student"
+        android:textIsSelectable="false" />
+
+
+</RelativeLayout>
